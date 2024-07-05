@@ -58,11 +58,21 @@ li {
 
 /*======= STYLES =======*/
 
+.btn {
+  display: block;
+  margin: 15px auto;
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: none;
+  background-color: #3498DB;
+  color: #eeeeee;
+  cursor: pointer;
+}
+
 .container {
   display: flex;
   flex-wrap: wrap;
   width: 960px;
-  height: 960px;
   margin: 0 auto;
   
 }
@@ -70,5 +80,6 @@ li {
 .container > div {
   width: 6.25%;
   border: 1px solid red;
+  height: 60px;
 }
 
